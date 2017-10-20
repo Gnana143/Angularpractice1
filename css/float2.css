@@ -1,8 +1,9 @@
 #block1{
-  height:40%;
+  height:20%;
   background-color: lightgray;
   margin: auto;
-  padding-left: 40px;
+  padding-left: 20px;
+  width: 80%;
 
 
 }
@@ -17,14 +18,17 @@
 }
 
 #subblock1 h5{
-padding-right: 150px;
-font-weight: lighter;
-font-size: 20px;
+  float: left;
+  font-weight: lighter;
+  font-size: 20px;
+  padding-left: 10px;
+
 }
 
 
 
 #subblock1 i{
+  float: left;
 padding-top: 40px;
 color: blue;
 }
@@ -38,14 +42,16 @@ color: blue;
 }
 
 #subblock2 h5{
-padding-right: 150px;
-font-weight: lighter;
-font-size: 20px;
+  float: left;
+  font-weight: lighter;
+  font-size: 20px;
+  padding-left: 10px;
 }
 
 
 
 #subblock2 i{
+  float: left;
 padding-top: 40px;
 color: blue;
 }
@@ -53,21 +59,23 @@ color: blue;
 
 #subblock3 {
   float: left;
-  width:25%;
+  width:20%;
   margin: 5px 0px 0px 0px;
   padding-left: 40px;
   border-right: 1px solid blue;
 }
 
 #subblock3 h5{
-padding-right: 150px;
-font-weight: lighter;
-font-size: 20px;
+  float: left;
+  font-weight: lighter;
+  font-size: 20px;
+  padding-left: 10px;
 }
 
 
 
 #subblock3 i{
+  float: left;
 padding-top: 30px;
 color: blue;
 }
@@ -83,14 +91,16 @@ color: blue;
 }
 
 #subblock4 h5{
-padding-right: 150px;
-font-weight: lighter;
-font-size: 20px;
+  float: left;
+  font-weight: lighter;
+  font-size: 20px;
+  padding-left: 10px;
 }
 
 
 
 #subblock4 i{
+  float: left;
 padding-top: 40px;
 color: blue;
 }
@@ -100,6 +110,9 @@ color: blue;
 margin: auto;
 border-bottom: 2px solid;
 border-color: blue;
+border-left: 2px solid blue;
+text-align: inherit;
+
 
 }
 
@@ -127,5 +140,21 @@ text-align: left;
 #block2 {
 
 margin-left: 400px;
+
+}
+
+#block3 img{
+  float: left;
+
+  padding-left: 450px;
+  height: 70%;
+}
+
+
+
+#block3 span img{
+position: absolute;
+padding-left: 0px;
+width:10%;
 
 }
