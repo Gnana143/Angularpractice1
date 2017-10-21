@@ -30,13 +30,19 @@
 
 		}
 
-    #bannerdetails{
+    #bannerdetails {
       margin: auto;
       padding-top:350px;
       text-align: center;
       color: purple;
 
     }
+
+		#bannerdetails p{
+			margin: auto;
+			padding-left: 480px;
+
+		}
 
     h2{
 
@@ -59,6 +65,7 @@
 
 		#block5{
 			margin-top: 20px;
+			overflow: hidden;
 		}
 
 		#block51{
@@ -111,7 +118,7 @@ p{ font-size: 20px;
 
 }
 
-#block2{
+#block21{
       margin:auto;
       border-bottom: 1px solid;
       height:60px;
@@ -123,13 +130,22 @@ span{
   font-size: 20px;
 }
 
-#block3{
+#block31{
  margin:auto;
  text-align: center;
+ overflow: hidden;
 
 }
 
-#block3 h5{
+#block31 p{
+ margin:auto;
+ text-align: center;
+ overflow: hidden;
+ padding-left: 550px;
+
+}
+
+#block31 h5{
 
  text-align: center;
  padding-bottom: 8px;
@@ -143,7 +159,7 @@ span{
 }
 
 
-#subblock1{
+#subblock31{
 	float: left;
   border-top: 1px solid;
   border-bottom: 1px solid;
@@ -153,17 +169,17 @@ span{
 
 }
 
-#subblock2{
+#subblock32{
 	float: left;
-  border-top: 2px solid;
-  border-bottom: 2px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
   border-color: grey;
 	margin-left: 30px;
   width: 30%;
 
 }
 
-#subblock3{
+#subblock33{
 	float: left;
   border-top: 1px solid;
   border-bottom: 1px solid;
@@ -172,22 +188,15 @@ span{
   width: 30%;
 
 }
+#block4{
 
+height:80%;
+overflow: hidden;
 
-#block6{
-	margin-top: 20px;
 
 }
-
 
 #block7{
 
-	
-	border:2px solid;
-
-}
-
-#block72{
-	width: 50%;
-	float: left;
+	border: 2px solid black;
 }

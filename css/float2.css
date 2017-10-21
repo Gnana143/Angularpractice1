@@ -1,9 +1,11 @@
 #block1{
-  height:20%;
-  background-color: lightgray;
+  height:100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin: auto;
   padding-left: 20px;
   width: 80%;
+  overflow: hidden;
 
 
 }
@@ -14,6 +16,7 @@
   width:18%;
   margin: 5px 0px 0px 0px;
   padding-left: 40px;
+  background-color: lightgray;
   border-right: 1px solid blue;
 }
 
@@ -38,6 +41,7 @@ color: blue;
   width:18%;
   margin: 5px 0px 0px 0px;
   padding-left: 40px;
+  background-color: lightgray;
   border-right: 1px solid blue;
 }
 
@@ -62,6 +66,7 @@ color: blue;
   width:20%;
   margin: 5px 0px 0px 0px;
   padding-left: 40px;
+  background-color: lightgray;
   border-right: 1px solid blue;
 }
 
@@ -87,6 +92,8 @@ color: blue;
   width:18%;
   margin: 5px 0px 0px 0px;
   padding-left: 40px;
+  padding-right: 30px;
+  background-color: lightgray;
   border-right: 1px solid blue;
 }
 
@@ -108,9 +115,9 @@ color: blue;
 #block2 td{
 
 margin: auto;
-border-bottom: 2px solid;
+border-bottom: 1px solid;
 border-color: blue;
-border-left: 2px solid blue;
+border-left: 1px solid blue;
 text-align: inherit;
 
 
@@ -139,7 +146,7 @@ text-align: left;
 
 #block2 {
 
-margin-left: 400px;
+margin-left: 300px;
 
 }
 
@@ -152,9 +159,13 @@ margin-left: 400px;
 
 
 
-#block3 span img{
+#block7 span img{
 position: absolute;
 padding-left: 0px;
 width:10%;
 
+}
+
+#block2 td:nth-child(1){
+  border-width: 1px 1px 1px 0px;
 }
