@@ -195,3 +195,10 @@ overflow: hidden;
 
 
 }
+
+#block12 td,tr{
+
+border: 1px solid blue;
+border-collapse: collapse;
+
+}
